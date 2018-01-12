@@ -18,8 +18,26 @@
 		839423F31FFE043E001246F5 /* HqCollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839423F21FFE043E001246F5 /* HqCollectView.swift */; };
 		839423F51FFE1304001246F5 /* HqCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839423F41FFE1304001246F5 /* HqCollectionViewCell.swift */; };
 		839423F71FFE17B4001246F5 /* CatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839423F61FFE17B4001246F5 /* CatchViewController.swift */; };
+		83A3FCF6200862470038F5ED /* ttt.html in Resources */ = {isa = PBXBuildFile; fileRef = 83A3FCF5200862470038F5ED /* ttt.html */; };
+		83B75FD72008885B00E70FA2 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FB52008885B00E70FA2 /* aescrypt.c */; };
+		83B75FD82008885B00E70FA2 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FB62008885B00E70FA2 /* aeskey.c */; };
+		83B75FD92008885B00E70FA2 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FB82008885B00E70FA2 /* aestab.c */; };
+		83B75FDA2008885B00E70FA2 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FBC2008885B00E70FA2 /* entropy.c */; };
+		83B75FDB2008885B00E70FA2 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FBE2008885B00E70FA2 /* fileenc.c */; };
+		83B75FDC2008885B00E70FA2 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FC02008885B00E70FA2 /* hmac.c */; };
+		83B75FDD2008885B00E70FA2 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FC22008885B00E70FA2 /* prng.c */; };
+		83B75FDE2008885B00E70FA2 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FC42008885B00E70FA2 /* pwd2key.c */; };
+		83B75FDF2008885B00E70FA2 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FC62008885B00E70FA2 /* sha1.c */; };
+		83B75FE02008885B00E70FA2 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FCA2008885B00E70FA2 /* ioapi.c */; };
+		83B75FE12008885B00E70FA2 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FCC2008885B00E70FA2 /* mztools.c */; };
+		83B75FE22008885B00E70FA2 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FCE2008885B00E70FA2 /* unzip.c */; };
+		83B75FE32008885B00E70FA2 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FD02008885B00E70FA2 /* zip.c */; };
+		83B75FE42008885B00E70FA2 /* SSZipArchive+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FD22008885B00E70FA2 /* SSZipArchive+Swift.swift */; };
+		83B75FE52008885B00E70FA2 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B75FD42008885B00E70FA2 /* SSZipArchive.m */; };
+		83B75FE72008889600E70FA2 /* mall.zip in Resources */ = {isa = PBXBuildFile; fileRef = 83B75FE62008889600E70FA2 /* mall.zip */; };
 		83FA28652005E51400FF5CA3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FA28642005E51400FF5CA3 /* PageViewController.swift */; };
 		83FA28672005E56C00FF5CA3 /* TestpgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FA28662005E56C00FF5CA3 /* TestpgViewController.swift */; };
+		E089C71FFDFCC07AAA43BE14 /* libPods-Bubble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F026B7EA5DB7346E6197D12 /* libPods-Bubble.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F026B7EA5DB7346E6197D12 /* libPods-Bubble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bubble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831676481FEB93FD00EA8050 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8316764B1FEB93FD00EA8050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8316764D1FEB93FD00EA8050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +78,47 @@
 		839423F21FFE043E001246F5 /* HqCollectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HqCollectView.swift; sourceTree = "<group>"; };
 		839423F41FFE1304001246F5 /* HqCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HqCollectionViewCell.swift; sourceTree = "<group>"; };
 		839423F61FFE17B4001246F5 /* CatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchViewController.swift; sourceTree = "<group>"; };
+		83A3FCF5200862470038F5ED /* ttt.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ttt.html; sourceTree = "<group>"; };
+		83B75FB32008885B00E70FA2 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		83B75FB42008885B00E70FA2 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		83B75FB52008885B00E70FA2 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		83B75FB62008885B00E70FA2 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		83B75FB72008885B00E70FA2 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		83B75FB82008885B00E70FA2 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		83B75FB92008885B00E70FA2 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		83B75FBA2008885B00E70FA2 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		83B75FBB2008885B00E70FA2 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		83B75FBC2008885B00E70FA2 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		83B75FBD2008885B00E70FA2 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		83B75FBE2008885B00E70FA2 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		83B75FBF2008885B00E70FA2 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		83B75FC02008885B00E70FA2 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		83B75FC12008885B00E70FA2 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		83B75FC22008885B00E70FA2 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		83B75FC32008885B00E70FA2 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		83B75FC42008885B00E70FA2 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		83B75FC52008885B00E70FA2 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		83B75FC62008885B00E70FA2 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		83B75FC72008885B00E70FA2 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		83B75FC92008885B00E70FA2 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		83B75FCA2008885B00E70FA2 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		83B75FCB2008885B00E70FA2 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		83B75FCC2008885B00E70FA2 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		83B75FCD2008885B00E70FA2 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		83B75FCE2008885B00E70FA2 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		83B75FCF2008885B00E70FA2 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		83B75FD02008885B00E70FA2 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		83B75FD12008885B00E70FA2 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		83B75FD22008885B00E70FA2 /* SSZipArchive+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSZipArchive+Swift.swift"; sourceTree = "<group>"; };
+		83B75FD32008885B00E70FA2 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		83B75FD42008885B00E70FA2 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		83B75FD52008885B00E70FA2 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		83B75FD62008885B00E70FA2 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		83B75FE62008889600E70FA2 /* mall.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = mall.zip; sourceTree = "<group>"; };
 		83FA28642005E51400FF5CA3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		83FA28662005E56C00FF5CA3 /* TestpgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestpgViewController.swift; sourceTree = "<group>"; };
+		874B35DE8EAC972C6D3B01EE /* Pods-Bubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bubble/Pods-Bubble.release.xcconfig"; sourceTree = "<group>"; };
+		F932D620881C482B1FCC064B /* Pods-Bubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bubble/Pods-Bubble.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E089C71FFDFCC07AAA43BE14 /* libPods-Bubble.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,10 +150,14 @@
 		8316763F1FEB93FD00EA8050 = {
 			isa = PBXGroup;
 			children = (
+				83B75FE62008889600E70FA2 /* mall.zip */,
+				83B75FB12008885B00E70FA2 /* SSZipArchive */,
 				8316764A1FEB93FD00EA8050 /* Bubble */,
 				8316765F1FEB93FD00EA8050 /* BubbleTests */,
 				8316766A1FEB93FD00EA8050 /* BubbleUITests */,
 				831676491FEB93FD00EA8050 /* Products */,
+				EC7AD1B6D35F3034BEBB10F2 /* Pods */,
+				F133829853C0D232841DE03E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +174,7 @@
 		8316764A1FEB93FD00EA8050 /* Bubble */ = {
 			isa = PBXGroup;
 			children = (
+				83A3FCF5200862470038F5ED /* ttt.html */,
 				8316764B1FEB93FD00EA8050 /* AppDelegate.swift */,
 				8316764D1FEB93FD00EA8050 /* ViewController.swift */,
 				83FA28642005E51400FF5CA3 /* PageViewController.swift */,
@@ -147,6 +211,81 @@
 			path = BubbleUITests;
 			sourceTree = "<group>";
 		};
+		83B75FB12008885B00E70FA2 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				83B75FB22008885B00E70FA2 /* aes */,
+				83B75FC82008885B00E70FA2 /* minizip */,
+				83B75FD22008885B00E70FA2 /* SSZipArchive+Swift.swift */,
+				83B75FD32008885B00E70FA2 /* SSZipArchive.h */,
+				83B75FD42008885B00E70FA2 /* SSZipArchive.m */,
+				83B75FD52008885B00E70FA2 /* SSZipCommon.h */,
+				83B75FD62008885B00E70FA2 /* ZipArchive.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		83B75FB22008885B00E70FA2 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				83B75FB32008885B00E70FA2 /* aes.h */,
+				83B75FB42008885B00E70FA2 /* aes_via_ace.h */,
+				83B75FB52008885B00E70FA2 /* aescrypt.c */,
+				83B75FB62008885B00E70FA2 /* aeskey.c */,
+				83B75FB72008885B00E70FA2 /* aesopt.h */,
+				83B75FB82008885B00E70FA2 /* aestab.c */,
+				83B75FB92008885B00E70FA2 /* aestab.h */,
+				83B75FBA2008885B00E70FA2 /* brg_endian.h */,
+				83B75FBB2008885B00E70FA2 /* brg_types.h */,
+				83B75FBC2008885B00E70FA2 /* entropy.c */,
+				83B75FBD2008885B00E70FA2 /* entropy.h */,
+				83B75FBE2008885B00E70FA2 /* fileenc.c */,
+				83B75FBF2008885B00E70FA2 /* fileenc.h */,
+				83B75FC02008885B00E70FA2 /* hmac.c */,
+				83B75FC12008885B00E70FA2 /* hmac.h */,
+				83B75FC22008885B00E70FA2 /* prng.c */,
+				83B75FC32008885B00E70FA2 /* prng.h */,
+				83B75FC42008885B00E70FA2 /* pwd2key.c */,
+				83B75FC52008885B00E70FA2 /* pwd2key.h */,
+				83B75FC62008885B00E70FA2 /* sha1.c */,
+				83B75FC72008885B00E70FA2 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		83B75FC82008885B00E70FA2 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				83B75FC92008885B00E70FA2 /* crypt.h */,
+				83B75FCA2008885B00E70FA2 /* ioapi.c */,
+				83B75FCB2008885B00E70FA2 /* ioapi.h */,
+				83B75FCC2008885B00E70FA2 /* mztools.c */,
+				83B75FCD2008885B00E70FA2 /* mztools.h */,
+				83B75FCE2008885B00E70FA2 /* unzip.c */,
+				83B75FCF2008885B00E70FA2 /* unzip.h */,
+				83B75FD02008885B00E70FA2 /* zip.c */,
+				83B75FD12008885B00E70FA2 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		EC7AD1B6D35F3034BEBB10F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F932D620881C482B1FCC064B /* Pods-Bubble.debug.xcconfig */,
+				874B35DE8EAC972C6D3B01EE /* Pods-Bubble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F133829853C0D232841DE03E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F026B7EA5DB7346E6197D12 /* libPods-Bubble.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 831676701FEB93FD00EA8050 /* Build configuration list for PBXNativeTarget "Bubble" */;
 			buildPhases = (
+				7895AB66342A7B04E580DE57 /* [CP] Check Pods Manifest.lock */,
 				831676441FEB93FD00EA8050 /* Sources */,
 				831676451FEB93FD00EA8050 /* Frameworks */,
 				831676461FEB93FD00EA8050 /* Resources */,
+				C95D213489719DFDD2561D16 /* [CP] Embed Pods Frameworks */,
+				76EEB265BA77FBDD4A8B614D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +400,8 @@
 				831676561FEB93FD00EA8050 /* LaunchScreen.storyboard in Resources */,
 				831676531FEB93FD00EA8050 /* Assets.xcassets in Resources */,
 				831676511FEB93FD00EA8050 /* Main.storyboard in Resources */,
+				83A3FCF6200862470038F5ED /* ttt.html in Resources */,
+				83B75FE72008889600E70FA2 /* mall.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,19 +421,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76EEB265BA77FBDD4A8B614D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bubble/Pods-Bubble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7895AB66342A7B04E580DE57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bubble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95D213489719DFDD2561D16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bubble/Pods-Bubble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		831676441FEB93FD00EA8050 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B75FE42008885B00E70FA2 /* SSZipArchive+Swift.swift in Sources */,
+				83B75FDE2008885B00E70FA2 /* pwd2key.c in Sources */,
+				83B75FDD2008885B00E70FA2 /* prng.c in Sources */,
+				83B75FD92008885B00E70FA2 /* aestab.c in Sources */,
+				83B75FE12008885B00E70FA2 /* mztools.c in Sources */,
+				83B75FDF2008885B00E70FA2 /* sha1.c in Sources */,
 				839423F31FFE043E001246F5 /* HqCollectView.swift in Sources */,
+				83B75FE22008885B00E70FA2 /* unzip.c in Sources */,
 				83FA28652005E51400FF5CA3 /* PageViewController.swift in Sources */,
+				83B75FE02008885B00E70FA2 /* ioapi.c in Sources */,
 				832E818F1FF0A23300819277 /* NSArray+addtion.m in Sources */,
 				83FA28672005E56C00FF5CA3 /* TestpgViewController.swift in Sources */,
 				839423F71FFE17B4001246F5 /* CatchViewController.swift in Sources */,
+				83B75FDB2008885B00E70FA2 /* fileenc.c in Sources */,
 				839423F51FFE1304001246F5 /* HqCollectionViewCell.swift in Sources */,
+				83B75FDC2008885B00E70FA2 /* hmac.c in Sources */,
 				8316764E1FEB93FD00EA8050 /* ViewController.swift in Sources */,
+				83B75FD72008885B00E70FA2 /* aescrypt.c in Sources */,
 				8316764C1FEB93FD00EA8050 /* AppDelegate.swift in Sources */,
+				83B75FE32008885B00E70FA2 /* zip.c in Sources */,
+				83B75FE52008885B00E70FA2 /* SSZipArchive.m in Sources */,
+				83B75FD82008885B00E70FA2 /* aeskey.c in Sources */,
+				83B75FDA2008885B00E70FA2 /* entropy.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +663,7 @@
 		};
 		831676711FEB93FD00EA8050 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F932D620881C482B1FCC064B /* Pods-Bubble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -471,6 +682,7 @@
 		};
 		831676721FEB93FD00EA8050 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874B35DE8EAC972C6D3B01EE /* Pods-Bubble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

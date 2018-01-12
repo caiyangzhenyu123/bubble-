@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import WebKit
 
 class TestpgViewController: UIViewController {
     var tag = 0
     var tit = ""
+    var webview:WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         let lbl = UILabel.init(frame: CGRect.init(x: 100, y: 200, width: 100, height: 21))
@@ -22,6 +24,15 @@ class TestpgViewController: UIViewController {
         }else {
             self.view.backgroundColor = UIColor.white
         }
+        webview = WKWebView.init(frame: view.bounds)
+        let port = UserDefaults.standard.object(forKey: "webPort") as! String
+        let str = "smmapp://mall/supply-demand/index"
+        let modelparam = "/mall/index.html#/entry/" + str.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
+        let url = URL.init(string: "http://localhost:" + port + modelparam)
+        print(url)
+        webview.load(URLRequest.init(url: url!))
+        view.addSubview(webview)
+        
         // Do any additional setup after loading the view.
     }
 

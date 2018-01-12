@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src = "http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<ul>
+	<li id = '1'>1</li>
+	<li id = '2'>2</li>
+	<li id = '3'>3</li>
+</ul>
+<input type="file" id="file" onchange="handleFiles(this.files)"/>
+<div id="text"></div>
+<script>
+  window.onload = function() {
+
+    let msg = JSON.stringify({ 
+  event: 'subscribe', 
+  channel: 'ticker', 
+  symbol: 'tBTCUSD' 
+})
+    console.log(msg)
+
+
+    var a = "aa"
+    if (!a) {
+      console.log(1111)
+    }else {
+      console.log(2222)
+    }
+  	// console.log($("ul li:not(:eq(0))"))
+  }
+
+  function handleFiles(files)
+  {
+    if(files.length)
+    {
+      var file = files[0];
+      alert(file)
+      var reader = new FileReader();
+      reader.readAsBinaryString(file);
+      reader.onload = function()
+      {
+    	console.log(this.result)
+      // text.innerHTML = this.result;
+    };
+    
+  }
+}
+
+</script>
+</body>
+</html>
