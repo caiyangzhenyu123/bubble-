@@ -15,6 +15,10 @@ class TestpgViewController: UIViewController {
     var webview:WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
         let lbl = UILabel.init(frame: CGRect.init(x: 100, y: 200, width: 100, height: 21))
         lbl.text = tit
         view.addSubview(lbl)
@@ -29,7 +33,6 @@ class TestpgViewController: UIViewController {
         let str = "smmapp://mall/supply-demand/index"
         let modelparam = "/mall/index.html#/entry/" + str.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
         let url = URL.init(string: "http://localhost:" + port + modelparam)
-        print(url)
         webview.load(URLRequest.init(url: url!))
         view.addSubview(webview)
         

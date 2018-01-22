@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,SSZipArchiveDelegate {
     func startServer() {
         do {
             try localhttpserver?.start()
-            localhttpserver?.setPort(80)
+//            localhttpserver?.setPort(50000)
             port = (localhttpserver?.listeningPort() ?? 80).description
             print(port)
             UserDefaults.standard.setValue(port, forKey: "webPort")

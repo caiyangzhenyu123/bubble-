@@ -34,6 +34,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+
         img.frame = CGRect.init(x: 100, y: 50, width: 200, height: 36)
         img.image =  UIImage.init(named: "bubble")?.resizableImage(withCapInsets: UIEdgeInsets.init(top: 17, left: 10, bottom: 10, right: 20), resizingMode: UIImageResizingMode.stretch)
         
